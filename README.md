@@ -4,3 +4,8 @@ Baseado nas sources OdinMS e MoopleMS. Versão 83 com FIX de versões como; 155,
 
 #Desenvolvedor
 Se interessar contribuir com nosso projeto, contate-nos.
+
+
+#Source
+
+- Função askAcceptDecline substituída por sendAcceptDecline
