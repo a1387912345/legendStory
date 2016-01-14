@@ -10,3 +10,4 @@ Se interessar contribuir com nosso projeto, contate-nos.
 
 - Função askAcceptDecline substituída por sendAcceptDecline
 - Add public void expandInventory para Sygnus Knight
+- Updated SQL Reactor
