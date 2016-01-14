@@ -9,3 +9,4 @@ Se interessar contribuir com nosso projeto, contate-nos.
 #Source
 
 - Função askAcceptDecline substituída por sendAcceptDecline
+- Add public void expandInventory para Sygnus Knight
