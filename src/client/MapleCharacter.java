@@ -4781,6 +4781,9 @@ public class MapleCharacter extends AbstractAnimatedMapleMapObject {
         pendantExp = 0;
     }
 
+	
+	
+	
     public void increaseEquipExp(int mobexp) {
         MapleItemInformationProvider mii = MapleItemInformationProvider.getInstance();
         for (Item item : getInventory(MapleInventoryType.EQUIPPED).list()) {
