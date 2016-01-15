@@ -24,11 +24,11 @@ function action(mode, type, selection) {
 		    cm.dispose();
 		} else {
 		    cm.sendNext("You must have the fishing chair in order to fish!");
-		    cm.safeDispose();
+		    cm.dispose();
 		}
 	    } else {
 		cm.sendNext("You must have the fishing rod in order to fish!");
-		cm.safeDispose();
+		cm.dispose();
 	    }
 	} else if (sel == 1) {
 	    cm.sendYesNo("It requires 3000 meso for 120 baits. Do you want to purchase?");
@@ -44,7 +44,7 @@ function action(mode, type, selection) {
 		    cm.sendOk("Please check if you have the required meso or sufficient inventory slot.");
 		}
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	} else if (sel == 3) {
 	    if (cm.canHold(2300001,120) && cm.haveItem(5350000,1)) {
 		if (!cm.haveItem(2300001)) {
@@ -57,10 +57,10 @@ function action(mode, type, selection) {
 	    } else {
 		cm.sendOk("Please check if you have sufficient inventory slot and the Delicious Bait Can from cash shop with you.");
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	} else if (sel == 4) {
 	    cm.sendOk("You need to be above level 10, with a fishing rod, fishing baits and a fishing chair in order to enter the Fishing Lagoon. You will reel in a catch every 1 minute. Talk to lagoon's NPC Madrick to check out your catch record!");
-	    cm.safeDispose();
+	    cm.dispose();
 	} else if (sel == 5) {
 	    if (cm.haveItem(4000518, 500)) {
 		if (cm.canHold(1142146)) {
@@ -73,7 +73,7 @@ function action(mode, type, selection) {
 	    } else {
 		cm.sendOk("Please get me 500 #i4000518:# Golden Fish Egg in exchange for a Fishing King medal!")
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	}
     } else if (status == 2) {
 	if (sel == 1) {
@@ -88,7 +88,7 @@ function action(mode, type, selection) {
 	    } else {
 		cm.sendOk("Please check if you have the required meso or sufficient inventory slot.");
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	}
     }
 }

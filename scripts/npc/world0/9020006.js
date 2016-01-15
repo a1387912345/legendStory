@@ -14,7 +14,7 @@ function action(mode, type, selection) {
 				cm.dispose();
 			} else {
 				cm.sendOk("Please, destroy Ani!");
-				cm.safeDispose();
+				cm.dispose();
 			}
 		}
 }

@@ -25,10 +25,10 @@ function action(mode, type, selection) {
 	    imburse = cm.getCompensation();
 	    if (imburse == null || imburse.left <= 0 || imburse.mid > 0) {
 		cm.sendOk("You have no pending reimbursements.");
-		cm.safeDispose();
+		cm.dispose();
 	    } else if (!cm.canHoldSlots(10)) {
 		cm.sendOk("Please make at least 10 inventory space in ALL of your inventories.");
-		cm.safeDispose();
+		cm.dispose();
 	    } else {
 		cm.sendYesNo("The database specifies that you have a reimbursement waiting! Would you like to redeem it now?");
 	    }
@@ -81,7 +81,7 @@ function action(mode, type, selection) {
 	    }
 	    cm.gainMeso(((ourValue % 1000000) * 1000) | 0);
 	    cm.sendOk("You have been reimbursed. Hope you enjoy~");
-	    cm.safeDispose();
+	    cm.dispose();
 	}
 }
 

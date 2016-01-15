@@ -34,20 +34,23 @@ function action(mode, type, selection){
     status++;
     if (status == 2 && type == 1) {
         cm.gainMeso(-1000);
-        cm.warp(130000000);
+        cm.warp(101000000);
         mode = -1;
     }
     if (mode != 1) {
         cm.dispose();
         return;
     }
-    if (status == 0)
+    if (status == 0) {
         cm.sendYesNo("Ummm, are you trying to leave Ereve again? I can take you to #bEllinia#k if you want...\r\n\r\nYou'll have to pay a fee of #b1000#k Mesos.");
-    else if (status == 1)
-        if (cm.getMeso() > 1000)
+    } else if (status == 1) {
+        if (cm.getMeso() > 1000){
             cm.sendNext("I'll take you off of the ride. Talk to me back any time.");
-        else {
+			cm.gainMeso(-1000);
+			cm.warp(101000000);
+			cm.dispose();
+        }else {
             cm.sendNext("I don't think you have enough mesos, double check your inventory.");
             cm.dispose();
-        }
+        }}
 }

@@ -32,6 +32,6 @@ function action(mode, type, selection) {
         } else {
             cm.sendOk("Please check if you have the required meso or sufficient inventory slot.");
         }
-        cm.safeDispose();
+        cm.dispose();
     }
 }

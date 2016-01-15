@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="QuestInfo.img">
   <imgdir name="1000">
-    <string name="name" value="Borrowing Sera's Mirror" />
-    <string name="parent" value="Sera's Mirror" />
-    <string name="0" value="Let's go to Heena." />
-    <string name="1" value="I ran into Heena who was worrying about her face getting irritated by the strong sunlight. I have to get a mirror for Heena from her sister, Sarah." />
-    <string name="2" value="Heena asked me to go to her sister and get a mirror for her. I walked my way to Sarah." />
+    <string name="name" value="Emprestando o espelho da Sera" />
+    <string name="parent" value="Espelho da Sera" />
+    <string name="0" value="Vamos para Heena." />
+    <string name="1" value="Eu trombei com Heena que estava meio preocupada porque sua cara estava irritada por causa do sol. Eu preciso pegar com a irmã de Heena, Sarah, um espelho." />
+    <string name="2" value="Heena me pediu para ir com a irmã dela pegar o espelho. Eu fui até Sarah." />
     <int name="area" value="20" />
     <int name="order" value="1" />
   </imgdir>
   <imgdir name="10000">
-    <string name="name" value="Suspicious Offer?!" />
-    <string name="0" value="An urgent message was sent from #b#p9000021##k." />
-    <string name="1" value="An urgent message was sent from Agent #b#p9000021##k." />
-    <string name="2" value="#bGaga#k came to see me and asked me to become an agent out of no where!  Not sure why, but I agreed without really thinking Now what do I do?  Come to think of it, the #bMaple Admin#k and #bCassandra#k both looked suspicious with their black sunglasses.  What's going on?  I think I need to talk to #bGaga#k for more details..." />
+    <string name="name" value="Proposta suspeita?!" />
+    <string name="0" value="Uma mensagem urgente foi enviada de #b#p9000021##k." />
+    <string name="1" value="Uma mensagem urgente foi enviada do Agente #b#p9000021##k." />
+    <string name="2" value="#bGaga#k veio me visitar e do nada me pediu para ser um Agente!  Não entendi o porque, mas eu concordei meio que sem pensar, o que eu faço agora?  Pense comigo, o #bMaple Admin#k e #bCassandra#k ambos parecem suspeitos com aqueles óculos escuros. O que está acontecendo?  Eu acho que preciso conversar com #bGaga#k para saber mais sobre isso..." />
     <int name="area" value="50" />
     <int name="autoStart" value="1" />
     <int name="autoPreComplete" value="1" />
   </imgdir>
   <imgdir name="10001">
-    <string name="name" value="Co-op with Special Agent O" />
-    <string name="0" value="Gaga, who' now a secret agent, says he has someone he wants to introduce me to.  I wonder who it is?" />
-    <string name="1" value="Gaga, who suddenly became a secret agent of an unknown organization, has deputized me and now I am an agent as well.  Gaga suggested I do a co-op with special agent O.  However, he didn't tell me the details of the mission and simply told me to meet special agent O myself.  He said I could find the special agent O at the mini dungeon entrance...n\n#b&lt;Mini Dungeon Area where agent O is&gt;\n- Victoria Island : #m100020000#\n- Victoria Island : #m105040304#\n- Victoria Island : #m105050100#\n- Ludus Lake : #m221023400#\n- Nihal Desert : #m260020300#\n- Nihal Desert : #m261020300#\n- Minar Forest : #m240020500#\n- Minar Forest : #m240040511#\n- Minar Forest : #m240040520#" />
-    <string name="2" value="Through Gaga's introduction, I met Special Agent O.  He seemed like quite a charadcter--full of personality and life." />
+    <string name="name" value="Co-op com o Agente Especial O" />
+    <string name="0" value="Gaga, que agora é uma Agente Secreta, disse que ela quer me apresentar pra alguém. Quem poderia ser?" />
+    <string name="1" value="Gaga, que de repente virou uma Agente Secreta de uma organização desconhecida, me nomeu uma Agente.  Gaga sugeriu que eu faça um co-op com o Agente Especial O.  Entretanto, ele não me falou os detalhes da missão e apenas disse para me encontrar com o Agente Especial O.  Ele disse disse que eu poderia encontrar o agente especial O na entrada da mini dungeon...n\n#b&lt;Mini Dungeon Area onde o agente O está&gt;\n- Victoria Island : #m100020000#\n- Victoria Island : #m105040304#\n- Victoria Island : #m105050100#\n- Ludus Lake : #m221023400#\n- Nihal Desert : #m260020300#\n- Nihal Desert : #m261020300#\n- Minar Forest : #m240020500#\n- Minar Forest : #m240040511#\n- Minar Forest : #m240040520#" />
+    <string name="2" value="Através da Gaga, eu conheci o agente especial O.  Ele me pareceu uma figura--cheio de personalidade e vida." />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10002">
-    <string name="name" value="Number of Special Agent Badges " />
-    <string name="1" value="Special Agent O told me to go to the mini dungeon and bring back #b#t4031988##k from the Agent Box which appears after 30 minutes\r\n#i4031988# #t4031988# #b#c4031988# / 1\n\n#k  Each time I collect 10 badges, I'll receive #bAgent O's Nylon Gloves#k and when I collect 100, I can get #bAgent O's Leather Gloves#k..  " />
-    <string name="2" value="I received a mission from Special Agent O to disarm the Agent Box in the mini dungeon and retrieve a Special Agent Badge, and I successfully completed it." />
+    <string name="name" value="Número de Badges do agente especial " />
+    <string name="1" value="O agente especial 0 me disse para ir a mini dungeon e trazer de volta #b#t4031988##k do agente Box no qual aparece após 30 minutos\r\n#i4031988# #t4031988# #b#c4031988# / 1\n\n#k  Cada vez que eu coletar 10 badges, eu vou receber #bAgent O's Nylon Gloves#k e quando eu coletar 100, Eu posso ter #bAgent O's Leather Gloves#k..  " />
+    <string name="2" value="Eu recebi uma missão do agente O, preciso desarmar o agente Box na mini dungeon para receber um Badge de Agente Especial, e eu completei a missão com sucesso." />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10005">
-    <string name="name" value="Agent W's Watermelon Investigation" />
-    <string name="0" value="The Maple Admin says he has something to talk to me about.  I should go see the #rMaple Admin#k. " />
-    <string name="1" value="The Maple Admin said that #e#rMaster M#k#n had planted a bomb in Chumji's watermelons and asked me to retrieve the watermelons.  After I get access to Chumji's watermelon field from the Maple Admin, I should get #b5 #t4031701##k and take it to #rAgent W#k at agent headquarters.\r\n#i4031701# #t4031701# #b#c4031701# / 5#k" />
-    <string name="2" value="There has been intelligence that a bomb from #rMaster M#k had been planted in Chumji's watermelons in his field.  I carefully picked 5 watermelons from Chumji's watermelon field and delivered it to Agent W.  Agent W is a self proclaimed demolitions expert!  I don't feel all that safe around him..." />
+    <string name="name" value="Investigação do agente W Watermelon" />
+    <string name="0" value="O Admin do Maple tem algo pra falar comigo.  Eu devo ir ver o Admin do Maple #rMaple Admin#k. " />
+    <string name="1" value="O Admin do Maple #e#rMaster M#k#n disse que uma bomba foi plantada nas melancias do Chumji e ele pediu para retirar as melancias. Após eu conseguir entrar nas plantações do Chumji através do Maple Admin, eu devo ir até #b5 #t4031701##k e levar para o #rAgent W#k no quartel dos agentes.\r\n#i4031701# #t4031701# #b#c4031701# / 5#k" />
+    <string name="2" value="Há informações de que uma bomba had been planted in Chumji's watermelons in his field.  I carefully picked 5 watermelons from Chumji's watermelon field and delivered it to Agent W.  Agent W is a self proclaimed demolitions expert!  I don't feel all that safe around him..." />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10007">

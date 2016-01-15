@@ -26,7 +26,7 @@ function action(mode, type, selection) {
 
 	    if (em == null) {
 		cm.sendOk("The event isn't started, please contact a GM.");
-		cm.safeDispose();
+		cm.dispose();
 		return;
 	    }
 
@@ -60,18 +60,18 @@ function action(mode, type, selection) {
 		    var type = cm.isSquadLeader("BossBalrog");
 		    if (type == -1) {
 			cm.sendOk("The squad has ended, please re-register.");
-			cm.safeDispose();
+			cm.dispose();
 		    } else if (type == 0) {
 			var memberType = cm.isSquadMember("BossBalrog");
 			if (memberType == 2) {
 			    cm.sendOk("You been banned from the squad.");
-			    cm.safeDispose();
+			    cm.dispose();
 			} else if (memberType == 1) {
 			    status = 5;
 			    cm.sendSimple("What do you want to do? \r\n#b#L0#Check out members#l \r\n#b#L1#Join the squad#l \r\n#b#L2#Withdraw from squad#l");
 			} else if (memberType == -1) {
 			    cm.sendOk("The squad has ended, please re-register.");
-			    cm.safeDispose();
+			    cm.dispose();
 			} else {
 			    status = 5;
 			    cm.sendSimple("What do you want to do? \r\n#b#L0#Check out members#l \r\n#b#L1#Join the squad#l \r\n#b#L2#Withdraw from squad#l");
@@ -95,7 +95,7 @@ function action(mode, type, selection) {
 					status = 3;
 				} else {
 					cm.sendOk("The squad's battle against the boss has already begun.");
-					cm.safeDispose();
+					cm.dispose();
 				}
 			} else {
 				cm.sendYesNo("Ah, you have returned. Would you like to join your squad in the fight again?");
@@ -116,7 +116,7 @@ function action(mode, type, selection) {
 					status = 3;
 				} else {
 					cm.sendOk("The squad's battle against the boss has already begun.");
-					cm.safeDispose();
+					cm.dispose();
 				}
 			} else {
 				cm.sendYesNo("Ah, you have returned. Would you like to join your squad in the fight again?");
@@ -125,7 +125,7 @@ function action(mode, type, selection) {
 	}
 	    } else {
 		cm.sendPrev("You need a party.");
-		cm.safeDispose();
+		cm.dispose();
 	    }
 	    break;
 	case 1:
@@ -151,13 +151,13 @@ function action(mode, type, selection) {
 	    } else {
 		cm.sendOk("Talk to me if you want to become the leader of the Expedition squad.")
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	    break;
 	case 2:
 		if (!cm.reAdd(balrogMode ? "BossBalrog_NORMAL" : "BossBalrog_EASY", "BossBalrog")) {
 			cm.sendOk("Error... please try again.");
 		}
-		cm.safeDispose();
+		cm.dispose();
 		break;
 	case 3:
 		if (mode == 1) {
@@ -173,7 +173,7 @@ function action(mode, type, selection) {
 	    if (selection == 0) {
 		if (!cm.getSquadList("BossBalrog", 0)) {
 		    cm.sendOk("Due to an unknown error, the request for squad has been denied.");
-		    cm.safeDispose();
+		    cm.dispose();
 		} else {
 		    cm.dispose();
 		}
@@ -181,22 +181,22 @@ function action(mode, type, selection) {
 		var ba = cm.addMember("BossBalrog", true);
 		if (ba == 2) {
 		    cm.sendOk("The squad is currently full, please try again later.");
-		    cm.safeDispose();
+		    cm.dispose();
 		} else if (ba == 1) {
 		    cm.sendOk("You have joined the squad successfully");
-		    cm.safeDispose();
+		    cm.dispose();
 		} else {
 		    cm.sendOk("You are already part of the squad.");
-		    cm.safeDispose();
+		    cm.dispose();
 		}
 	    } else {// withdraw
 		var baa = cm.addMember("BossBalrog", false);
 		if (baa == 1) {
 		    cm.sendOk("You have withdrawed from the squad successfully");
-		    cm.safeDispose();
+		    cm.dispose();
 		} else {
 		    cm.sendOk("You are not part of the squad.");
-		    cm.safeDispose();
+		    cm.dispose();
 		}
 	    }
 	    break;
@@ -205,19 +205,19 @@ function action(mode, type, selection) {
 		if (!cm.getSquadList("BossBalrog", 0)) {
 		    cm.sendOk("Due to an unknown error, the request for squad has been denied.");
 		}
-		cm.safeDispose();
+		cm.dispose();
 	    } else if (selection == 1) {
 		status = 11;
 		if (!cm.getSquadList("BossBalrog", 1)) {
 		    cm.sendOk("Due to an unknown error, the request for squad has been denied.");
 		}
-		cm.safeDispose();
+		cm.dispose();
 	    } else if (selection == 2) {
 		status = 12;
 		if (!cm.getSquadList("BossBalrog", 2)) {
 		    cm.sendOk("Due to an unknown error, the request for squad has been denied.");
 		}
-		cm.safeDispose();
+		cm.dispose();
 	    } else if (selection == 3) { // get insode
 		if (cm.getSquad("BossBalrog") != null) {
 		    var dd = cm.getEventManager(balrogMode ? "BossBalrog_NORMAL" : "BossBalrog_EASY");
@@ -225,7 +225,7 @@ function action(mode, type, selection) {
 		    cm.dispose();
 		} else {
 		    cm.sendOk("Due to an unknown error, the request for squad has been denied.");
-		    cm.safeDispose();
+		    cm.dispose();
 		}
 	    }
 	    break;

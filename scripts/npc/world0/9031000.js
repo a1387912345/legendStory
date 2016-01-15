@@ -11,6 +11,6 @@ function action(mode, type, selection) {
     }
     if (status == 0) {
 	cm.sendOk("You can get professions from the various NPCs in Ardentmill.\r\n\r\n1. Herbalism + Alchemy\r\n2. Mining + Smithing\r\n3. Mining + Accessory Crafting");
-	cm.safeDispose();
+	cm.dispose();
     }
 }

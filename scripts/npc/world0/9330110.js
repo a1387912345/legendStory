@@ -22,7 +22,7 @@ function action(mode, type, selection) {
 	sel = selection;
 	if (sel == 4) {
 	    cm.sendOk("You need to be above level 10, with a fishing rod and fishing baits in order to enter the Fishing Lagoon. You will reel in a catch every 1 minute.");
-	    cm.safeDispose();
+	    cm.dispose();
 	} else if (sel == 5) {
 	    if (cm.haveItem(4000518, 500)) {
 		if (cm.canHold(1142146)) {
@@ -35,7 +35,7 @@ function action(mode, type, selection) {
 	    } else {
 		cm.sendOk("Please get me 500 #i4000518:# Golden Fish Egg in exchange for a Fishing King medal!")
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	}
     }
 }

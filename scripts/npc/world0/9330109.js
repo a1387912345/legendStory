@@ -34,7 +34,7 @@ function action(mode, type, selection) {
 	    } else {
 		cm.sendOk("Please check if you have sufficient inventory slot and the Delicious Bait Can from cash shop with you.");
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	}
     } else if (status == 2) {
 	if (sel == 1) {
@@ -49,7 +49,7 @@ function action(mode, type, selection) {
 	    } else {
 		cm.sendOk("Please check if you have the required meso or sufficient inventory slot.");
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	}
     }
 }

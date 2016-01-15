@@ -5,5 +5,5 @@ function start() {
 
 function action(mode, type, selection) {
 	cm.sendNext("Hi, I'm Mia.");
-	cm.safeDispose();
+	cm.dispose();
 }

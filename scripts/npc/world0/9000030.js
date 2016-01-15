@@ -18,14 +18,14 @@ function action(mode, type, selection) {
 	if (selection == 0) {
 	    if (!cm.getPlayer().getStat().hasHP) {
 		cm.sendOk("You have no Auto HP Pot.");
-		cm.safeDispose();
+		cm.dispose();
 	    } else {
 		cm.sendGetNumber("Enter what % HP you want the Auto Potion to activate. (1-100)", 50, 1, 100);
 	    }
 	} else {
 	    if (!cm.getPlayer().getStat().hasMP) {
 		cm.sendOk("You have no Auto MP Pot.");
-		cm.safeDispose();
+		cm.dispose();
 	    } else {
 		cm.sendGetNumber("Enter what % MP you want the Auto Potion to activate. (1-100)", 50, 1, 100);
 	    }
@@ -51,13 +51,13 @@ function action(mode, type, selection) {
 		}
 		if (selStr.length <= 0) {
 		    cm.sendOk("The Percent has been set, but you have no items worth setting to the potion.");
-		    cm.safeDispose();
+		    cm.dispose();
 		} else {
 		    cm.sendSimple("The Percent has been set. Please choose what item to set as the Potion:\r\n" + selStr);
 		}
 	    } else {
 		cm.sendOk("The number was invalid. (1-100)");
-		cm.safeDispose();
+		cm.dispose();
 	    }
 	} else {
 	    if (selection >= 1 && selection <= 100) {
@@ -78,20 +78,20 @@ function action(mode, type, selection) {
 		}
 		if (selStr.length <= 0) {
 		    cm.sendOk("The Percent has been set, but you have no items worth setting to the potion.");
-		    cm.safeDispose();
+		    cm.dispose();
 		} else {
 		    cm.sendSimple("The Percent has been set. Please choose what item to set as the Potion:\r\n" + selStr);
 		}
 	    } else {
 		cm.sendOk("The number was invalid. (1-100)");
-		cm.safeDispose();
+		cm.dispose();
 	    }
 	}
     } else if (status == 3) {
 	var inzz = cm.getInventory(2).getItem(slot[selection]);
 	if (inzz == null) {
 	    cm.sendOk("Error, please try again.");
-	    cm.safeDispose();
+	    cm.dispose();
 	    return;
 	}
 	var itt = cm.getEffect(inzz.getItemId());
@@ -112,6 +112,6 @@ function action(mode, type, selection) {
 		cm.sendOk("#v" + inzz.getItemId() + "##t" + inz.getItemId() + "# has been set as the potion.");
 	    }
 	}
-	cm.safeDispose();
+	cm.dispose();
     }
 }

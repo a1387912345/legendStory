@@ -34,7 +34,7 @@ function action(mode, type, selection) {
         }
         status--;
     }
-    if (cm.getPlayer().getLevel() < 10 && cm.getPlayer().getJob() != 200) {
+    if (cm.getPlayer().getLevel() < 10 && cm.getPlayer().getJobId() != 200) {
         cm.sendOk("Please talk to me at level 10.");
         cm.dispose();
         return;
@@ -213,19 +213,19 @@ function action(mode, type, selection) {
             if (cm.getPlayer().getSkillLevel(8) > 0 || cm.getPlayer().getSkillLevel(10000018) > 0 || cm.getPlayer().getSkillLevel(20000024) > 0 || cm.getPlayer().getSkillLevel(20011024) > 0 || cm.getPlayer().getSkillLevel(30001024) > 0 || cm.getPlayer().getSkillLevel(30011024) > 0 || cm.getPlayer().getSkillLevel(20021024) > 0) {
                 cm.sendOk("You already have this skill.");
             } else {
-                if (cm.getJob() == 3001 || (cm.getJob() >= 3100 && cm.getJob() <= 3112)) {
+                if (cm.getJobId() == 3001 || (cm.getJobId() >= 3100 && cm.getJobId() <= 3112)) {
                     cm.teachSkill(30011024, 1, 0); // Maker
-                } else if (cm.getJob() >= 3000) {
+                } else if (cm.getJobId() >= 3000) {
                     cm.teachSkill(30001024, 1, 0); // Maker
-                } else if (cm.getJob() == 2002 || cm.getJob() >= 2300) {
+                } else if (cm.getJobId() == 2002 || cm.getJobId() >= 2300) {
                     cm.teachSkill(20021024, 1, 0); // Maker
-                } else if (cm.getJob() == 2001 || cm.getJob() >= 2200) {
+                } else if (cm.getJobId() == 2001 || cm.getJobId() >= 2200) {
                     cm.teachSkill(20011024, 1, 0); // Maker
-                } else if (cm.getJob() >= 2000) {
+                } else if (cm.getJobId() >= 2000) {
                     cm.teachSkill(20000024, 1, 0); // Maker
-                } else if (cm.getJob() >= 1000) {
+                } else if (cm.getJobId() >= 1000) {
                     cm.teachSkill(10000018, 1, 0); // Maker
-                //} else if (cm.getJob() == 1 || cm.getJob() == 501 || (cm.getJob() > 522 && cm.getJob() <= 532)) {
+                //} else if (cm.getJobId() == 1 || cm.getJobId() == 501 || (cm.getJobId() > 522 && cm.getJobId() <= 532)) {
                 //	cm.teachSkill(10008, 1, 0); // Maker, idk TODO JUMP
                 } else {
                     cm.teachSkill(8, 1, 0); // Maker
@@ -234,15 +234,15 @@ function action(mode, type, selection) {
             }
             cm.dispose();
         } else if (selection == 4) {
-            if (cm.getPlayer().getSkillLevel(80001000) > 0 || cm.getPlayer().getSkillLevel(cm.getPlayer().getStat().getSkillByJob(1004, cm.getPlayer().getJob()))) {
+            if (cm.getPlayer().getSkillLevel(80001000) > 0 || cm.getPlayer().getSkillLevel(cm.getPlayer().getStat().getSkillByJob(1004, cm.getPlayer().getJobId()))) {
                 cm.sendOk("You already have this skill.");
             } else {
-                if (cm.getJob() >= 3000 && cm.getJob() < 4000) {
+                if (cm.getJobId() >= 3000 && cm.getJobId() < 4000) {
                     cm.sendOk("Sorry but Resistance characters may not get the Monster Riding skill.");
                     cm.dispose();
                     return;
                 }
-                cm.teachSkill(cm.isGMS() ? 80001000 : cm.getPlayer().getStat().getSkillByJob(1004, cm.getPlayer().getJob()), 1, 0); // Maker
+                cm.teachSkill(cm.isGMS() ? 80001000 : cm.getPlayer().getStat().getSkillByJob(1004, cm.getPlayer().getJobId()), 1, 0); // Maker
                 cm.sendOk("I have taught you Monster Rider skill.");
             }
             cm.dispose();

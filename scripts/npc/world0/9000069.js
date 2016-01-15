@@ -197,7 +197,7 @@ function action(mode, type, selection) {
     } else {
 	if (status == 2) {
 	    cm.sendOk("This is a serious matter! Don't bother me if you are unwilling to do it.");
-	    cm.safeDispose();
+	    cm.dispose();
 	    return;
 	} else if (status == 4 || status == 0 || status == 1) {
 	    cm.dispose();
@@ -267,7 +267,7 @@ if (firstSel == 0) {
 	    } else {
 		cm.sendOk("Woops! The scroll is destroyed!")
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	} else {
 	    if (prompt == -2) {
 		cm.sendOk("It appears that you are short of 500,000 mesos.");
@@ -276,7 +276,7 @@ if (firstSel == 0) {
 	    } else {
 		cm.sendOk("It appears that you are short of #i"+prompt+"# #t"+prompt+"#.");
 	    }
-	    cm.safeDispose();
+	    cm.dispose();
 	}
     }
 }

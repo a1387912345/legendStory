@@ -190,8 +190,14 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
             MapleQuest.getInstance(id).forceComplete(getPlayer(), npc);
         } catch (NullPointerException ex) {
         }
-    }
 
+
+		}
+
+		
+		
+	
+		
     public int getMeso() {
         return getPlayer().getMeso();
     }

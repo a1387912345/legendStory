@@ -41,26 +41,26 @@ function action(mode, type, selection) {
     if (status == 0) {
         if (
             (cm.getPlayer().getLevel() >= 10 &&
-                (cm.getPlayer().getJob() % 1000 == 0 || cm.getPlayer().getJob() == 501 || cm.getPlayer().getJob() == 3001 || cm.getPlayer().getJob() >= 2001 && cm.getPlayer().getJob() <= 2003)
-                || cm.getPlayer().getLevel() >= 30 && (cm.getPlayer().getJob() % 1000 > 0 && cm.getPlayer().getJob() % 100 == 0
-                    || cm.getPlayer().getJob() == 508)
-                || cm.getPlayer().getLevel() >= (tempest ? 60 : 70) && cm.getPlayer().getJob() % 10 == 0 && cm.getPlayer().getJob() % 100 != 0
-                || cm.getPlayer().getLevel() >= (tempest ? 100 : 120) && cm.getPlayer().getJob() % 10 == 1
-                || cm.getPlayer().getLevel() >= 20 && cm.getPlayer().getJob() == 400 && cm.getPlayer().getSubcategory() == 1
-                || cm.getPlayer().getLevel() >= 30 && cm.getPlayer().getJob() == 430 || cm.getPlayer().getLevel() >= (tempest ? 45 : 55) && cm.getPlayer().getJob() == 431 || cm.getPlayer().getLevel() >= (tempest ? 60 : 70) && cm.getPlayer().getJob() == 432 || cm.getPlayer().getLevel() >= (tempest ? 100 : 120) && cm.getPlayer().getJob() == 433)
-            && (cm.getPlayer().getJob() % 10 != 2 && cm.getPlayer().getJob() % 10 != 4 || cm.getPlayer().getJob() == 432))
+                (cm.getPlayer().getJobId() % 1000 == 0 || cm.getPlayer().getJobId() == 501 || cm.getPlayer().getJobId() == 3001 || cm.getPlayer().getJobId() >= 2001 && cm.getPlayer().getJobId() <= 2003)
+                || cm.getPlayer().getLevel() >= 30 && (cm.getPlayer().getJobId() % 1000 > 0 && cm.getPlayer().getJobId() % 100 == 0
+                    || cm.getPlayer().getJobId() == 508)
+                || cm.getPlayer().getLevel() >= (tempest ? 60 : 70) && cm.getPlayer().getJobId() % 10 == 0 && cm.getPlayer().getJobId() % 100 != 0
+                || cm.getPlayer().getLevel() >= (tempest ? 100 : 120) && cm.getPlayer().getJobId() % 10 == 1
+                || cm.getPlayer().getLevel() >= 20 && cm.getPlayer().getJobId() == 400 && cm.getPlayer().getSubcategory() == 1
+                || cm.getPlayer().getLevel() >= 30 && cm.getPlayer().getJobId() == 430 || cm.getPlayer().getLevel() >= (tempest ? 45 : 55) && cm.getPlayer().getJobId() == 431 || cm.getPlayer().getLevel() >= (tempest ? 60 : 70) && cm.getPlayer().getJobId() == 432 || cm.getPlayer().getLevel() >= (tempest ? 100 : 120) && cm.getPlayer().getJobId() == 433)
+            && (cm.getPlayer().getJobId() % 10 != 2 && cm.getPlayer().getJobId() % 10 != 4 || cm.getPlayer().getJobId() == 432))
             cm.sendYesNo("Hello young one, congratulations on defeating evil wizard,\r\ it is now time to chose your first job!\r\ Are you ready?");
         else {
             cm.sendOk("You may not advance at the current state.");
             cm.dispose();
         }
     } else if (status == 1) {
-        if (cm.getPlayer().getSubcategory() == 1 && cm.getPlayer().getJob() == 0) { //Dual Blade
+        if (cm.getPlayer().getSubcategory() == 1 && cm.getPlayer().getJobId() == 0) { //Dual Blade
             cm.getPlayer().changeJob(400);
             cm.dispose();
             return;
         }
-        if (cm.getPlayer().getSubcategory() == 1 && cm.getPlayer().getJob() == 400) { //Dual Blade
+        if (cm.getPlayer().getSubcategory() == 1 && cm.getPlayer().getJobId() == 400) { //Dual Blade
             cm.getPlayer().changeJob(430);
 			cm.gainItem(5620000, 1);//
 				cm.gainItem(5620001, 1);// Mastery Books before 4th job
@@ -69,18 +69,18 @@ function action(mode, type, selection) {
             cm.dispose();
             return;
         }
-        if (cm.getPlayer().getSubcategory() == 10 && cm.getPlayer().getJob() == 0) { //Jett
+        if (cm.getPlayer().getSubcategory() == 10 && cm.getPlayer().getJobId() == 0) { //Jett
             cm.getPlayer().changeJob(508);
             cm.getPlayer().forceChangeChannel(cm.getPlayer().getClient().getChannel());
             cm.dispose();
             return;
         }
-        if (cm.getPlayer().getSubcategory() == 2 && cm.getPlayer().getJob() == 0) { //Cannoneer
+        if (cm.getPlayer().getSubcategory() == 2 && cm.getPlayer().getJobId() == 0) { //Cannoneer
             cm.getPlayer().changeJob(501);
             cm.dispose();
             return;
         }
-        switch (cm.getPlayer().getJob()) {
+        switch (cm.getPlayer().getJobId()) {
             //Jobs with selections
             case 0: // Beginner
                 jobSelection(0);
@@ -160,7 +160,7 @@ function action(mode, type, selection) {
             case 431: // Blade Acolyte
             case 432: // Blade Specialist
             case 433: // Blade Lord
-                cm.getPlayer().changeJob(cm.getPlayer().getJob() + 1);
+                cm.getPlayer().changeJob(cm.getPlayer().getJobId() + 1);
                 cm.getPlayer().forceChangeChannel(cm.getPlayer().getClient().getChannel());
                 cm.dispose();
                 return;
@@ -182,7 +182,7 @@ function action(mode, type, selection) {
             case 5100: // Mihile
             case 6100: // Kaiser
             case 6500: // Angelic Burster
-                cm.getPlayer().changeJob(cm.getPlayer().getJob() + 10);
+                cm.getPlayer().changeJob(cm.getPlayer().getJobId() + 10);
                 cm.getPlayer().forceChangeChannel(cm.getPlayer().getClient().getChannel());
                 cm.dispose();
                 return;
@@ -248,12 +248,12 @@ function action(mode, type, selection) {
             case 5111: // Mihile
             case 6111: // Kaiser
             case 6511: // Angelic Burster
-                cm.getPlayer().changeJob(cm.getPlayer().getJob() + 1);
+                cm.getPlayer().changeJob(cm.getPlayer().getJobId() + 1);
                 cm.warp(30000, 0);
                 cm.dispose();
                 return;
             default:
-                cm.sendOk("An error occured, or a new job found.\r\nPlease report to the Admins.\r\nYour job id: " + cm.getPlayer().getJob() + "");
+                cm.sendOk("An error occured, or a new job found.\r\nPlease report to the Admins.\r\nYour job id: " + cm.getPlayer().getJobId() + "");
                 cm.dispose();
                 return;
         }

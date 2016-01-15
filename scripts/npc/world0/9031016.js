@@ -1,4 +1,4 @@
 function action(mode, type, selection) {
-    cm.sendStorage();
+    cm.getPlayer().getStorage().sendStorage(cm.getClient(), 9031016);
     cm.dispose();
 }

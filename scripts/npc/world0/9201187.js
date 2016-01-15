@@ -23,14 +23,14 @@ function action(mode, type, selection) {
 				} else {
 					cm.sendOk("Please check your item inventory and see if you have the ticket, or if the inventory is full.");
 				}
-				cm.safeDispose();
+				cm.dispose();
 			} else {
 				if (selection == 0) {
 					cm.sendNext("Play Gachapon for a chance to win rare Nebulites and Preminum Fusion Ticket Pieces! All you need is a Nebuilte Gachapon Ticket to be the winner of a random Nebulite.");
 				} else if (selection == 1) {
 					cm.sendOk("Gachapon Tickets are available at the #rCash Shop#k and can be purchased using NX or Maple Points. Click on the red SHOP button at the bottom of the screen to the right of your EXP. bar to visit the #rCash Shop#k where you can purchase tickets.");
 				}
-				cm.safeDispose();
+				cm.dispose();
 			}
 		}
     }

@@ -18,7 +18,7 @@ function action(mode, type, selection) {
         else
             status--;
             if (status == 0) {
-			if (cm.getPlayer().getLevel() >= 200 && cm.getPlayer().getJob() == 2312) {
+			if (cm.getPlayer().getLevel() >= 200 && cm.getPlayer().getJobId() == 2312) {
 				cm.sendYesNo("Hi #r#h ##k, I see you dont have your #blevel 200 medal#k and #bEcho Of the Hero#k");
 			}else {
 				cm.sendOk("You are not a mercedes or level 200 silly.");

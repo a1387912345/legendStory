@@ -9,7 +9,7 @@ function action(mode, type, selection) {
 	status++;
     } else {
 	cm.sendOk("You'll get to your destination in moment. Go ahead and talk to other people, and before you know it, you'll be there already.");
-	cm.safeDispose();
+	cm.dispose();
 	return;
     }
     if (status == 0) {

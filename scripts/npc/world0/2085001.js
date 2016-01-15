@@ -15,7 +15,7 @@ function start() {
     while (it.hasNext()) {
         var cPlayer = it.next();
         var ccPlayer = cm.getPlayer().getMap().getCharacterById(cPlayer.getId());
-        if (ccPlayer == null || ccPlayer.getLevel() < 120 || (ccPlayer.getSkillLevel(ccPlayer.getStat().getSkillByJob(1026, ccPlayer.getJob())) <= 0)) {
+        if (ccPlayer == null || ccPlayer.getLevel() < 120 || (ccPlayer.getSkillLevel(ccPlayer.getStat().getSkillByJob(1026, ccPlayer.getJobId())) <= 0)) {
             next = false;
             break;
         } else if (ccPlayer.isGM()) {

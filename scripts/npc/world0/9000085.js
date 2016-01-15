@@ -15,7 +15,7 @@ function action(mode, type, selection) {
 		if (status == 0) {
 			if (cm.getPlayer().getBattler(0) == null && cm.getPlayer().getBoxed().size() <= 0) {
 				cm.sendOk("You have no monsters and therefore have no entries in the Pokedex.");
-				cm.safeDispose();
+				cm.dispose();
 				return;
 			}
 			
@@ -47,7 +47,7 @@ function action(mode, type, selection) {
 			var theEntry = pokeEntries.get(selection);
 			if (cm.getPlayer().getMonsterBook().getLevelByCard(theEntry.id) == 0) {
 				cm.sendOk("#" + cm.getLeftPadded("" + (selection + 1), '0', 3) + " - Unknown data.");
-				cm.safeDispose();
+				cm.dispose();
 				return;
 			}
 			sel = selection;
@@ -69,7 +69,7 @@ function action(mode, type, selection) {
 				info += "Evolutions: ???\r\n";
 				info += "Found in: ???\r\n";
 				cm.sendOk(info);
-				cm.safeDispose();
+				cm.dispose();
 				return;
 			}
 			info += "Level " + theEntry.dummyBattler.getLevel() + "\r\n";

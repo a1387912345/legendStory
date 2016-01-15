@@ -11,11 +11,11 @@ function action(mode, type, selection) {
     } else if (status == 0) {
 	if (cm.haveItem(4031839)) {
 	    cm.sendOk("I've already picked one up. I don't think I'll need to pick up another one.");
-	    cm.safeDispose();
+	    cm.dispose();
 	} else {
 	    cm.gainItem(4031839,1);
 	    cm.sendOk("I can barely make this out... but it reads Kyrin.");
-	    cm.safeDispose();
+	    cm.dispose();
 	}
     }
 }

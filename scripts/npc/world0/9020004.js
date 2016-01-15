@@ -6,7 +6,7 @@ function action(mode, type, selection) {
 				cm.dispose();
 			} else {
 				cm.sendOk("Please, save me!");
-				cm.safeDispose();
+				cm.dispose();
 			}
 		} else if (cm.getMapId() / 100 == 9230404) {
 			if (cm.getMap().getAllMonstersThreadsafe().size() == 0) {
@@ -24,7 +24,7 @@ function action(mode, type, selection) {
 				cm.dispose();
 			} else {
 				cm.sendOk("Please, destroy Pianus!");
-				cm.safeDispose();
+				cm.dispose();
 			}
 		}
 }

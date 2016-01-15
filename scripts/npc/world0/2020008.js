@@ -44,7 +44,7 @@ function action(mode, type, selection) {
         else
             status--;
         if (status == 0) {
-            if (cm.getJob().getId() >= 200 || cm.getJob().getId() % 10 != 1) {
+            if (cm.getJobId().getId() >= 200 || cm.getJobId().getId() % 10 != 1) {
                 cm.sendOk("May #rOdin#k be with you!");
                 cm.dispose();
                 return;
@@ -61,7 +61,7 @@ function action(mode, type, selection) {
             } else if (cm.getQuestStatus(100100).equals(MapleQuestStatus.Status.STARTED)) {
                 cm.sendOk("Well, well. Now go and see #bDances with Balrog#k. He will show you the way.");
                 cm.dispose();
-            } else if (cm.getJob().getId() < 200 && cm.getJob().getId() % 10 == 1 && cm.getLevel() >= 70) {
+            } else if (cm.getJobId().getId() < 200 && cm.getJobId().getId() % 10 == 1 && cm.getLevel() >= 70) {
                 cm.sendNext("#rBy Odin's beard!#k You are a strong one.");
             } else {
                 cm.sendOk("Your time has yet to come...");
@@ -69,7 +69,7 @@ function action(mode, type, selection) {
             }
         } else if (status == 1) {
             if (cm.getQuestStatus(100102).equals(MapleQuestStatus.Status.COMPLETED)) {
-                cm.changeJobById(cm.getPlayer().getJob().getId() + 1);
+                cm.changeJobById(cm.getPlayer().getJobId().getId() + 1);
                 cm.sendOk("You are now a #b"+cm.getJobName()+"#k. May #rOdin#k be with you!");
                 cm.dispose();
             } else if (cm.getQuestStatus(100100).equals(MapleQuestStatus.Status.COMPLETED)) {

@@ -39,7 +39,7 @@ else
    
 	if (status == 1) {
 	//&& !cm.getPlayer().hasSkill(4341009) && !cm.getPlayer().hasSkill(4341002))
-		if (cm.getPlayer().getJob() == 434 && !cm.getPlayer().getSkillLevel(4341009) > 0 && !cm.getPlayer().getSkillLevel(4341002) > 0) {
+		if (cm.getPlayer().getJobId() == 434 && !cm.getPlayer().getSkillLevel(4341009) > 0 && !cm.getPlayer().getSkillLevel(4341002) > 0) {
 			cm.sendSimple("You now have the skills!");
 			cm.teachSkill(4341009, 30, 30);
 			cm.teachSkill(4341002, 30, 30);

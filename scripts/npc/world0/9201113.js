@@ -64,14 +64,14 @@ function start() {
 				if (squd != null) {
 					if (squd.getNextPlayer() != null) {
 						cm.sendOk("The squad's battle against the boss has already begun. The player to reserve the next spot is " + squd.getNextPlayer());
-						cm.safeDispose();
+						cm.dispose();
 					} else {
 						cm.sendYesNo("The squad's battle against the boss has already begun. Would you like to queue the next spot?");
 						status = 3;
 					}
 				} else {
 					cm.sendOk("The squad's battle against the boss has already begun.");
-					cm.safeDispose();
+					cm.dispose();
 				}
 			} else {
 				cm.sendYesNo("Ah, you have returned. Would you like to join your squad in the fight again?");
@@ -85,14 +85,14 @@ function start() {
 				if (squd != null) {
 					if (squd.getNextPlayer() != null) {
 						cm.sendOk("The squad's battle against the boss has already begun. The player to reserve the next spot is " + squd.getNextPlayer());
-						cm.safeDispose();
+						cm.dispose();
 					} else {
 						cm.sendYesNo("The squad's battle against the boss has already begun. Would you like to queue the next spot?");
 						status = 3;
 					}
 				} else {
 					cm.sendOk("The squad's battle against the boss has already begun.");
-					cm.safeDispose();
+					cm.dispose();
 				}
 			} else {
 				cm.sendYesNo("Ah, you have returned. Would you like to join your squad in the fight again?");
@@ -119,7 +119,7 @@ function action(mode, type, selection) {
 		if (!cm.reAdd("CWKPQ", "CWKPQ")) {
 			cm.sendOk("Error... please try again.");
 		}
-		cm.safeDispose();
+		cm.dispose();
 		break;
 	case 3:
 		if (mode == 1) {

@@ -20,7 +20,7 @@ function action(mode, type, selection) {
 	status--;
 
     if (status == 0) {
-	if (!(cm.getJob() == 211 || cm.getJob() == 221 || cm.getJob() == 231)) {
+	if (!(cm.getJobId() == 211 || cm.getJobId() == 221 || cm.getJobId() == 231)) {
 	    cm.sendOk("Why do you want to see me? There is nothing you want to ask me.");
 	    cm.dispose();
 	    return;
@@ -30,9 +30,9 @@ function action(mode, type, selection) {
 	    return;
 	} else {
 	    if (cm.getQuestStatus(6914) == 2) {
-		if (cm.getJob() == 211)
+		if (cm.getJobId() == 211)
 		    cm.sendSimple("You're qualified to be a true magician. \r\nDo you want job advancement?\r\n#b#L0# I want to advance to Arch Mage.#l\r\n#b#L1#  Let me think for a while.#l");
-		else if (cm.getJob() == 221)
+		else if (cm.getJobId() == 221)
 		    cm.sendSimple("You're qualified to be a true magician. \r\nDo you want job advancement?\r\n#b#L0# I want to advance to Arch Mage.#l\r\n#b#L1#  Let me think for a while.#l");
 		else
 		    cm.sendSimple("You're qualified to be a true magician. \r\nDo you want job advancement?\r\n#b#L0# I want to advance to Bishop.#l\r\n#b#L1#  Let me think for a while.#l");
@@ -58,10 +58,10 @@ function action(mode, type, selection) {
 	    cm.dispose();
 	    return;
 	} else {
-		if (cm.getJob() == 211) {
+		if (cm.getJobId() == 211) {
 		    cm.changeJob(212);
 		    cm.sendNext("You became the best magician, #bArch Mage#k. Arch Mage can use its own power as well as Mana of nature just like \n#bInfinity#k or #bBig Bang#k");
-		} else if (cm.getJob() == 221) {
+		} else if (cm.getJobId() == 221) {
 		    cm.changeJob(222);
 		    cm.sendNext("You became the best magician, #bArch Mage#k. Arch Mage can use its own power as well as Mana of nature just like \n#bInfinity#k or #bBig Bang#k");
 		} else {
@@ -70,9 +70,9 @@ function action(mode, type, selection) {
 		}
 	}
     } else if (status == 2) {
-	if (cm.getJob() == 212) {
+	if (cm.getJobId() == 212) {
 	    cm.sendNext("This is not all about Arch Mage. Arch Mage is good at fire and poison element-based. It may change not only extreme element-based but also element-based of its own or enemies if you train. ");
-	} else if (cm.getJob() == 222) {
+	} else if (cm.getJobId() == 222) {
 	    cm.sendNextPrev("This is not all about Arch Mage. Arch Mage is good at fire and poison element-based. It may change not only extreme element-based but also element-based of its own or enemies if you train. ");
 	} else {
 	    cm.sendNextPrev("This is not all about Bishop. Bishop can borrow God's power. It may make strong castle element-based magic and even make the dead alive. ");

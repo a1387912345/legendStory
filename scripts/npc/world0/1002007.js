@@ -19,7 +19,7 @@ function action(mode, type, selection) {
     } else {
 	if (status >= 2) {
 	    cm.sendNext("There's a lot to see in this town, too. Come back and find us when you need to go to a different town.");
-	    cm.safeDispose();
+	    cm.dispose();
 	    return;
 	}
 	status--;
@@ -28,7 +28,7 @@ function action(mode, type, selection) {
 	cm.sendNext("Hi! I drive the Lith Harbor Regular Cab. Would you like to travel to a different town? If so, try using my cab. I can take you to a different town for a cheap price.");
     } else if (status == 1) {
 	if (!cm.haveItem(4032313)) {
-	    var job = cm.getJob();
+	    var job = cm.getJobId();
 	    if (job == 0 || job == 1000 || job == 2000) {
 		var selStr = "We have a special 90% discount for beginners. Choose your destination, for fees will change from place to place.#b";
 		for (var i = 0; i < maps.length; i++) {
@@ -46,7 +46,7 @@ function action(mode, type, selection) {
 	}
     } else if (status == 2) {
 	if (!cm.haveItem(4032313)) {
-	    var job = cm.getJob();
+	    var job = cm.getJobId();
 	    if (job == 0 || job == 1000 || job == 2000) {
 		sCost = costBeginner[selection];
 		show = costBeginner[selection];
@@ -64,7 +64,7 @@ function action(mode, type, selection) {
     } else if (status == 3) {
 	if (cm.getMeso() < sCost) {
 	    cm.sendNext("You don't have enough mesos. Sorry to say this, but without them, you won't be able to ride the cab.");
-	    cm.safeDispose();
+	    cm.dispose();
 	} else {
 	    cm.gainMeso(-sCost);
 	    cm.warp(maps[selectedMap]);

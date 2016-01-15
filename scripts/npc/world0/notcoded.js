@@ -4,5 +4,5 @@ function action(mode, type, selection) {
 	} else {
 		cm.sendNext("Sorry, I am not coded yet.");
 	}
-	cm.safeDispose();
+	cm.dispose();
 }

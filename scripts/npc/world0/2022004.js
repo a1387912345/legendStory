@@ -25,7 +25,7 @@ function action(mode, type, selection) {
 		cm.dispose();
 	    } else {
 		cm.sendOk("You're not given items as there's no blank in Others box. Make a blank and talk to me again.");
-		cm.safeDispose();
+		cm.dispose();
 	    }
 	} else {
 	    cm.warp(211000001, 0);

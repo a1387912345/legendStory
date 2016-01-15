@@ -8,5 +8,5 @@ function action(mode, type, selection) {
 	} else {
 		cm.sendOk("I guard the entrance to the Secret Garden... oops, not so secret anymore, is it?");
 	}
-	cm.safeDispose();
+	cm.dispose();
 }

@@ -54,6 +54,6 @@ else
         } else {
             cm.sendOk("Please check your item inventory and see if you have the ticket, or if the inventory is full.");
         }
-        cm.safeDispose();
+        cm.dispose();
     }
 	}

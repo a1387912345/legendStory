@@ -88,7 +88,7 @@ function start() {
                     status = 3;
                 } else {
                     cm.sendOk("The squad's battle against the boss has already begun.");
-                    cm.safeDispose();
+                    cm.dispose();
                 }
             } else {
                 cm.sendYesNo("Ah, you have returned. Would you like to join your squad in the fight again?");
@@ -109,7 +109,7 @@ function start() {
                 status = 3;
             } else {
                 cm.sendOk("The squad's battle against the boss has already begun.");
-                cm.safeDispose();
+                cm.dispose();
             }
         } else {
             cm.sendYesNo("Ah, you have returned. Would you like to join your squad in the fight again?");
@@ -134,7 +134,7 @@ function action(mode, type, selection) {
             if (!cm.reAdd("HorntailBattle", "Horntail")) {
                 cm.sendOk("Error... please try again.");
             }
-            cm.safeDispose();
+            cm.dispose();
             break;
         case 3:
             if (mode == 1) {

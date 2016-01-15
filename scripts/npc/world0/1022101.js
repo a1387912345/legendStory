@@ -7,5 +7,5 @@ var firstsel = 0;
 
 function action(mode, type, selection) {
 	cm.sendOk("Happy Holidays~");
-	cm.safeDispose();
+	cm.dispose();
 }

@@ -4,5 +4,5 @@ function action(mode, type, selection) {
     } else {
     	cm.sendOk ("If you bring me the Pink Bean Hat and an empty slot, you will gain the Pink Bean Overall if you don't already have it.");
     }
-    cm.safeDispose();
+    cm.dispose();
 }
