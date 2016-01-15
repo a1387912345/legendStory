@@ -69,7 +69,7 @@ function action(mode, type, selection) {
             }
         } else if (status == 1) {
             if (cm.getQuestStatus(100102).equals(MapleQuestStatus.Status.COMPLETED)) {
-                cm.changeJobById(cm.getPlayer().getJobId().getId() + 1);
+                cm.changeJobById(cm.getJobId() + 1);
                 cm.sendOk("You are now a #b"+cm.getJobName()+"#k. May #rOdin#k be with you!");
                 cm.dispose();
             } else if (cm.getQuestStatus(100100).equals(MapleQuestStatus.Status.COMPLETED)) {
