@@ -35,14 +35,14 @@
     <string name="name" value="Investigação do agente W Watermelon" />
     <string name="0" value="O Admin do Maple tem algo pra falar comigo.  Eu devo ir ver o Admin do Maple #rMaple Admin#k. " />
     <string name="1" value="O Admin do Maple #e#rMaster M#k#n disse que uma bomba foi plantada nas melancias do Chumji e ele pediu para retirar as melancias. Após eu conseguir entrar nas plantações do Chumji através do Maple Admin, eu devo ir até #b5 #t4031701##k e levar para o #rAgent W#k no quartel dos agentes.\r\n#i4031701# #t4031701# #b#c4031701# / 5#k" />
-    <string name="2" value="Há informações de que uma bomba had been planted in Chumji's watermelons in his field.  I carefully picked 5 watermelons from Chumji's watermelon field and delivered it to Agent W.  Agent W is a self proclaimed demolitions expert!  I don't feel all that safe around him..." />
+    <string name="2" value="Há informações de que uma bomba foi colocada na plantaçãod e melancia do Chumji. Eu colhi com cuidado 5 melancias da plantação dele e entreguei para o agente W.  Agente W diz que é expert em demolições e explosivos! Eu não me sinto tão seguro perto dele assim......" />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10007">
-    <string name="name" value="Agent C's Intelligence Activity" />
-    <string name="0" value="I received a message from Gaga, the secret agent, regarding an order for me.  I wonder what kind of mission it is?  I feeling a bit anxious." />
-    <string name="1" value="Secret Agent Gaga said once I get 5 Intelligence documents from party quests, go meet Agent C. \n\n#b&lt;Party Quest where Agent C is&gt;\n- Moon Bunny's Rice Cake : Level 10 or higher\n- First Accompaniment : Level 21 ~ Level 30\n- Crack of Dimension : Level 35 ~ Level 50\n- Tower of the Goddess : Level 51 ~ Level 70\n- Lord Pirate : Level 55 ~ Level 100\n- Romeo and Juliet : Level 71 ~ Level 85\n- Poisonous Fog Forest : Level 45 ~ Level 55\n\n #kEach time I retrieve 5 Intelligence documents I will receive #bAgent C's old Receiver#k, and when I retrieve 100 Intelligence documents, I will receive #bAgent C's Titanium Titanium Receiver#k." />
-    <string name="2" value="Secret Agent Gaga suggested that I go see Agent C at the reward map once I get 5 Intelligence documents from the party quest. " />
+    <string name="name" value="Atividades de Inteligência do Agente C" />
+    <string name="0" value="Recebi uma mensagem do Gaga, o agente secreto, era sobre um pedido para mim. Me pergunto que tipo de missão será?  Estou ansioso." />
+    <string name="1" value="O Agente Secreto Gaga uma vez disse que quando eu tivesse 5 documentos da inteligência adquiridos em party quests, eu poderia falar com o agente C. \n\n#b&lt;Party Quest onde o Agente C está&gt;\n- Moon Bunny's Rice Cake : Level 10 ou acima\n- First Accompaniment : Level 21 ~ Level 30\n- Crack of Dimension : Level 35 ~ Level 50\n- Tower of the Goddess : Level 51 ~ Level 70\n- Lord Pirate : Level 55 ~ Level 100\n- Romeo and Juliet : Level 71 ~ Level 85\n- Poisonous Fog Forest : Level 45 ~ Level 55\n\n #k Cada vez que eu resgatar 5 documentos de inteligência eu vou receber #bo receiver velho do Agente Cold#k, e quando eu resgatar 100 documentos de inteligência, eu vou receber o #breceiver de Titânio do Agent C#k." />
+    <string name="2" value="O agente secreto Gaga sugeriu que eu fosse ver o Agente C no mapa de recompensa caso eu tenha 5 documentos de inteligência conseguidos em party quests. " />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10008">
