@@ -12,3 +12,4 @@ Se interessar contribuir com nosso projeto, contate-nos.
 - Add public void expandInventory para Sygnus Knight
 - Updated SQL Reactor
 - removed SafeDispose(); add dispose(); only
+- Aran Estabilizado e com missões ativadas
