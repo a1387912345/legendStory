@@ -41,15 +41,15 @@
   <imgdir name="10007">
     <string name="name" value="Atividades de Inteligência do Agente C" />
     <string name="0" value="Recebi uma mensagem do Gaga, o agente secreto, era sobre um pedido para mim. Me pergunto que tipo de missão será?  Estou ansioso." />
-    <string name="1" value="O Agente Secreto Gaga uma vez disse que quando eu tivesse 5 documentos da inteligência adquiridos em party quests, eu poderia falar com o agente C. \n\n#b&lt;Party Quest onde o Agente C está&gt;\n- Moon Bunny's Rice Cake : Level 10 ou acima\n- First Accompaniment : Level 21 ~ Level 30\n- Crack of Dimension : Level 35 ~ Level 50\n- Tower of the Goddess : Level 51 ~ Level 70\n- Lord Pirate : Level 55 ~ Level 100\n- Romeo and Juliet : Level 71 ~ Level 85\n- Poisonous Fog Forest : Level 45 ~ Level 55\n\n #k Cada vez que eu resgatar 5 documentos de inteligência eu vou receber #bo receiver velho do Agente Cold#k, e quando eu resgatar 100 documentos de inteligência, eu vou receber o #breceiver de Titânio do Agent C#k." />
-    <string name="2" value="O agente secreto Gaga sugeriu que eu fosse ver o Agente C no mapa de recompensa caso eu tenha 5 documentos de inteligência conseguidos em party quests. " />
+    <string name="1" value="O Agente Secreto Gaga uma vez disse que quando eu tivesse 5 documentos da inteligência adquiridos em quests em grupo, eu poderia falar com o agente C. \n\n#b&lt;Quest em grupo onde o Agente C está&gt;\n- Moon Bunny's Rice Cake : Level 10 ou acima\n- First Accompaniment : Level 21 ~ Level 30\n- Crack of Dimension : Level 35 ~ Level 50\n- Tower of the Goddess : Level 51 ~ Level 70\n- Lord Pirate : Level 55 ~ Level 100\n- Romeo and Juliet : Level 71 ~ Level 85\n- Poisonous Fog Forest : Level 45 ~ Level 55\n\n #k Cada vez que eu resgatar 5 documentos de inteligência eu vou receber #bo receiver velho do Agente Cold#k, e quando eu resgatar 100 documentos de inteligência, eu vou receber o #breceiver de Titânio do Agent C#k." />
+    <string name="2" value="O agente secreto Gaga sugeriu que eu fosse ver o Agente C no mapa de recompensa caso eu tenha 5 documentos de inteligência conseguidos em quests em grupo. " />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10008">
-    <string name="name" value="Information on Master M" />
-    <string name="0" value="I collected 5 Intelligence documents.  Where am I supposed to find Agent C?" />
-    <string name="1" value="I delivered the 5 Intelligence documents I gathered from the party quests to Agent C.  For my good work, Agent C gave me a receiver.  " />
-    <string name="2" value="I delivered the 5 Intelligence documents I gathered from the party quests to Agent C.  For my good work, Agent C gave me a receiver.  " />
+    <string name="name" value="Informação sobre Master M" />
+    <string name="0" value="Eu coletei 5 documentos de inteligência. Onde deveria encontrar o Agente C?" />
+    <string name="1" value="Eu entreguei para o agente C 5 documentos de inteligência que eu coletei nas quests em grupo.  Para melhorar meu trabalho, o agente C me deu um receptor.  " />
+    <string name="2" value="Eu entreguei para o agente C os 5 documentos de inteligência que coletei nas quests em grupo.  Para melhorar meu trabalho, o agente C me deu um receptor.  " />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="1001">
