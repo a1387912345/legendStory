@@ -13,7 +13,7 @@
     <string name="name" value="Proposta suspeita?!" />
     <string name="0" value="Uma mensagem urgente foi enviada de #b#p9000021##k." />
     <string name="1" value="Uma mensagem urgente foi enviada do Agente #b#p9000021##k." />
-    <string name="2" value="#bGaga#k veio me visitar e do nada me pediu para ser um Agente!  Não entendi o porque, mas eu concordei meio que sem pensar, o que eu faço agora?  Pense comigo, o #bMaple Admin#k e #bCassandra#k ambos parecem suspeitos com aqueles óculos escuros. O que está acontecendo?  Eu acho que preciso conversar com #bGaga#k para saber mais sobre isso..." />
+    <string name="2" value="#bGaga#k veio me visitar e do nada me pediu para eu me tornar um Agente!  Não entendi o porque, mas eu concordei meio que sem pensar, o que eu faço agora?  Pense comigo, o #bMaple Admin#k e #bCassandra#k ambos parecem suspeitos com aqueles óculos escuros. O que está acontecendo?  Eu acho que preciso conversar com #bGaga#k para saber mais sobre isso..." />
     <int name="area" value="50" />
     <int name="autoStart" value="1" />
     <int name="autoPreComplete" value="1" />
@@ -53,48 +53,48 @@
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="1001">
-    <string name="name" value="Bringing a Mirror to Heena" />
-    <string name="parent" value="Sera's Mirror" />
+    <string name="name" value="Trazendo um Espelho para Heena" />
+    <string name="parent" value="Espelho de Sera" />
     <int name="order" value="2" />
-    <string name="1" value="I borrowed a mirror from Sarah who was doing her laundry. I have to take this mirror to Heena." />
-    <string name="2" value="I borrowed a mirror from Sarah, who was doing her laundry, and brought it back to Heena." />
+    <string name="1" value="Eu peguei emprestado um espelho da Sarah que estava lavando roupa. Preciso levar este espelho para Heena" />
+    <string name="2" value="Eu peguei emprestado um espelho da Sarah que estava lavando roupa, e trouxe ele de volta para Heena." />
     <int name="area" value="20" />
   </imgdir>
   <imgdir name="10010">
-    <string name="name" value="Special Order: Find Master M's Orders!" />
-    <string name="0" value="There's a strange energy flowing through Maple World.  Who is this Master M that is making everyone act so strange?  If anyone, #b#p9000036##k should know.  I should go visit her. " />
-    <string name="1" value="Agent E said that in order to protect Maple World, I must find #t4031999#. \n\n#i04031999# #t4031999# #b#c04031999# / 20#k" />
-    <string name="2" value="I found #t4031999# and delivered it.  I hope #b#p9000036##k does a good job analyzing it..." />
+    <string name="name" value="Pedido especial: Achar os pedidos do mestre M!" />
+    <string name="0" value="Há uma estranha energia fluindo através do Mundo Maple. Quem é esse mestre M que está fazendo todos agirem estranho?  Se alguém deve saber, esse alguém é #b#p9000036##k.  Eu devo ir visita-la. " />
+    <string name="1" value="Agente E disse que para proteger o Mundo Maple, eu devo achar #t4031999#. \n\n#i04031999# #t4031999# #b#c04031999# / 20#k" />
+    <string name="2" value="Eu achei #t4031999# e entreguei.  Espero que #b#p9000036##k faça um bom trabalho analisando isso..." />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10011">
-    <string name="name" value="Special Order: Find Master M's Orders!" />
-    <string name="0" value="There is a strange energy flowing through Maple World.  Who is this Master M that is making everyone act so strange?  If anyone, #b#p9000036##k should know.  I should go visit her. " />
-    <string name="1" value="Agent E said that in order to protect Maple World, I must find #t4032000#. \n\n#i04032000# #t4032000# #b#c04032000# / 20#k" />
-    <string name="2" value="I found #t4032000# and delivered it.  I hope #b#p9000036##k does a good job analyzing it..." />
+    <string name="name" value="Pedido especial: Achar os pedidos do mestre M!" />
+    <string name="0" value="Há uma estranha energia fluindo através do Mundo Maple. Quem é esse mestre M que está fazendo todos agirem estranho?  Se alguém deve saber, esse alguém é #b#p9000036##k.  Eu devo ir visita-la. " />
+    <string name="1" value="Agente E disse que para proteger o Mundo Maple, eu devo achar #t4032000#. \n\n#i04032000# #t4032000# #b#c04032000# / 20#k" />
+    <string name="2" value="Eu achei #t4032000# e entreguei.  Espero que #b#p9000036##k faça um bom trabalho analisando isso..." />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10012">
-    <string name="name" value="Special Order: Find Master M's Orders!" />
-    <string name="0" value="There is a strange energy flowing through Maple World right now.  Who is this Master M that is making everyone act so strange?  If anyone, #b#p9000036##k should know.  I should go visit her. " />
-    <string name="1" value="Agent E said that in order to protect Maple World, I must find #t4032001#. \n\n#i04032001# #t4032001# #b#c04032001# / 20#k" />
-    <string name="2" value="I found #t4032001# and delivered it.  I hope #b#p9000036##k does a good job analyzing it..." />
+    <string name="name" value="Pedido especial: Achar os pedidos do mestre M!" />
+    <string name="0" value="Há uma estranha energia fluindo através do Mundo Maple. Quem é esse mestre M que está fazendo todos agirem estranho?  Se alguém deve saber, esse alguém é #b#p9000036##k.  Eu devo ir visita-la. " />
+    <string name="1" value="Agente E disse que para proteger o Mundo Maple, eu devo achar #t4032001#. \n\n#i04032001# #t4032001# #b#c04032001# / 20#k" />
+    <string name="2" value="Eu achei #t4032001# e entreguei.  Espero que #b#p9000036##k faça um bom trabalho analisando isso..." />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10014">
-    <string name="name" value="Today's Mission!" />
-    <string name="0" value="Please check today's mission" />
-    <string name="1" value="I should clear the mission that is given to me each day!" />
-    <string name="2" value="I should clear the mission that is given to me each day!  What is today's mission?" />
+    <string name="name" value="Missão de hoje!" />
+    <string name="0" value="Por favor cheque a missão de hoje" />
+    <string name="1" value="Eu devo todo dia completar a missão de hoje!" />
+    <string name="2" value="Eu devo todo dia completar a missão de hoje!  Qual é a missão de hoje?" />
     <int name="area" value="50" />
     <int name="autoStart" value="1" />
   </imgdir>
   <imgdir name="10015">
-    <string name="name" value="Obtain the Special Agent Badge!" />
-    <string name="parent" value="Today's Mission! " />
+    <string name="name" value="Obter o Badge de agente especial!" />
+    <string name="parent" value="Missão de hoje! " />
     <int name="order" value="1" />
-    <string name="1" value="Today's Mission!! \r\n&lt;Hunt in the mini dungeon and obtain #b1 Special Agent Badge#k!&gt;\r\nToday's mission is obtaining a #bSpecial Agent Badge#k.  According to rumors, the Special Agent Badge can be found in the mini dungeon...\nI should go see Agent O whom Gaga introduced me to.  If I haven't been introduced to #bAgent O#k yet, I should first go see #bAgent Gaga#k." />
-    <string name="2" value="Today's mission has been completed." />
+    <string name="1" value="Missão de hoje!! \r\n&lt;Caçar na mini dungeon e obter #b1 Badge de agente especial #k!&gt;\r\nA missão de hoje é obter o #bBadge de agente especial#k. De acordo com rumores , a badge de agente especial pode ser encontrada na mini dungeon...\nEu devo me encontrar com o agente O, aquele que Gaga me apresentou.  Se eu ainda não fui apresentado pro #bagente O#k ainda, Eu primeiro devo visitar o #bAgente Gaga#k." />
+    <string name="2" value="A missão de hoje foi completada." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
   </imgdir>
@@ -117,29 +117,29 @@
     <int name="autoComplete" value="1" />
   </imgdir>
   <imgdir name="10018">
-    <string name="name" value="Earn 50 points on the Speed Quiz!" />
-    <string name="parent" value="Today's Mission!    " />
+    <string name="name" value="Ganhe 50 pontos no Quiz rápido!" />
+    <string name="parent" value="Missão de hoje!    " />
     <int name="order" value="1" />
-    <string name="1" value="Today's Mission!!\r\n&lt;Earn #b50 points#k on the Speed Quiz!&gt;\n\nToday's mission is to get #b50 points#k from the Speed Quiz.  If you go see #bAgent Cassandra#k, you can take a speed quiz on the items and monsters of Maple World.  You get 1 point per question and the quiz can be taken once every 30 minutes.  You must earn a #btotal 50 points#k for today." />
-    <string name="2" value="Today's mission has been completed." />
+    <string name="1" value="Missão de hoje!!\r\n&lt;Ganhe #b50 pontos#k no Quiz rápido!&gt;\n\nMissão de hoje é ganhar #b50 poontos#k no Quiz rápido.  Se você for ver #bAgente Cassandra#k, você pode fazer um Quiz sobre os itens e monstros do Mundo Maple.  Você ganha 1 ponto por pergunta e o quiz pode ser feito 1 vez a cada 30 minutos.  Você deve ganhar um #btotal de 50 pontos#k hoje." />
+    <string name="2" value="A Missão de hoje foi completada." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
   </imgdir>
   <imgdir name="10019">
     <string name="name" value="Invade the Watermelon Field!" />
-    <string name="parent" value="Today's Mission!     " />
+    <string name="parent" value="Missão de hoje!     " />
     <int name="order" value="1" />
-    <string name="1" value="Today's Mission!!\r\n&lt;Obtain #bChumji's Watermelon#k from the watermelon field!&gt;\n\nToday's mission is to obtain Chumji's watermelons.  There has been intelligence that #rMaster#k has planted a bomb in Chumji's watermelons.  Therefore, the watermelon field is currently being managed by the #bMaple Admin#k.  Get into the watermelon field through the Maple Admin and bring back the watermelons!" />
-    <string name="2" value="Today's mission has been completed." />
+    <string name="1" value="Missão de hoje!!\r\n&lt;Obtain #bChumji's Watermelon#k from the watermelon field!&gt;\n\nMissão de hoje is to obtain Chumji's watermelons.  There has been intelligence that #rMaster#k has planted a bomb in Chumji's watermelons.  Therefore, the watermelon field is currently being managed by the #bMaple Admin#k.  Get into the watermelon field through the Maple Admin and bring back the watermelons!" />
+    <string name="2" value="Missão de hoje has been completed." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
   </imgdir>
   <imgdir name="10020">
     <string name="name" value="Help Agent E!" />
-    <string name="parent" value="Today's Mission!      " />
+    <string name="parent" value="Missão de hoje!      " />
     <int name="order" value="1" />
-    <string name="1" value="Today's Mission!!\r\n&lt;Complete Agent E's #bSpecial Operation Quest#k!&gt; \n\nAgent E frequently assigns special operations to the agents to collect information on #bMaster M#k.  In order to receive a special operation from Agent E, go to Agent E who is in each town." />
-    <string name="2" value="Today's mission has been completed." />
+    <string name="1" value="Missão de hoje!!\r\n&lt;Complete Agent E's #bSpecial Operation Quest#k!&gt; \n\nAgent E frequently assigns special operations to the agents to collect information on #bMaster M#k.  In order to receive a special operation from Agent E, go to Agent E who is in each town." />
+    <string name="2" value="Missão de hoje has been completed." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
   </imgdir>
