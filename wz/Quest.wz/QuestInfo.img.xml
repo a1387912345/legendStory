@@ -82,7 +82,7 @@
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10014">
-    <string name="name" value="Missão de hoje!" />
+    <string name="name" value="Missão diária!" />
     <string name="0" value="Por favor cheque a missão de hoje" />
     <string name="1" value="Eu devo todo dia completar a missão de hoje!" />
     <string name="2" value="Eu devo todo dia completar a missão de hoje!  Qual é a missão de hoje?" />
@@ -91,9 +91,9 @@
   </imgdir>
   <imgdir name="10015">
     <string name="name" value="Obter o Badge de agente especial!" />
-    <string name="parent" value="Missão de hoje! " />
+    <string name="parent" value="Missão diária! " />
     <int name="order" value="1" />
-    <string name="1" value="Missão de hoje!! \r\n&lt;Caçar na mini dungeon e obter #b1 Badge de agente especial #k!&gt;\r\nA missão de hoje é obter o #bBadge de agente especial#k. De acordo com rumores , a badge de agente especial pode ser encontrada na mini dungeon...\nEu devo me encontrar com o agente O, aquele que Gaga me apresentou.  Se eu ainda não fui apresentado pro #bagente O#k ainda, Eu primeiro devo visitar o #bAgente Gaga#k." />
+    <string name="1" value="Missão diária!! \r\n&lt;Caçar na mini dungeon e obter #b1 Badge de agente especial #k!&gt;\r\nA missão de hoje é obter o #bBadge de agente especial#k. De acordo com rumores , a badge de agente especial pode ser encontrada na mini dungeon...\nEu devo me encontrar com o agente O, aquele que Gaga me apresentou.  Se eu ainda não fui apresentado pro #bagente O#k ainda, Eu primeiro devo visitar o #bAgente Gaga#k." />
     <string name="2" value="A missão de hoje foi completada." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
@@ -118,52 +118,52 @@
   </imgdir>
   <imgdir name="10018">
     <string name="name" value="Ganhe 50 pontos no Quiz rápido!" />
-    <string name="parent" value="Missão de hoje!    " />
+    <string name="parent" value="Missão diária!    " />
     <int name="order" value="1" />
-    <string name="1" value="Missão de hoje!!\r\n&lt;Ganhe #b50 pontos#k no Quiz rápido!&gt;\n\nMissão de hoje é ganhar #b50 poontos#k no Quiz rápido.  Se você for ver #bAgente Cassandra#k, você pode fazer um Quiz sobre os itens e monstros do Mundo Maple.  Você ganha 1 ponto por pergunta e o quiz pode ser feito 1 vez a cada 30 minutos.  Você deve ganhar um #btotal de 50 pontos#k hoje." />
-    <string name="2" value="A Missão de hoje foi completada." />
+    <string name="1" value="Missão diária!!\r\n&lt;Ganhe #b50 pontos#k no Quiz rápido!&gt;\n\nMissão diária é ganhar #b50 poontos#k no Quiz rápido.  Se você for ver #bAgente Cassandra#k, você pode fazer um Quiz sobre os itens e monstros do Mundo Maple.  Você ganha 1 ponto por pergunta e o quiz pode ser feito 1 vez a cada 30 minutos.  Você deve ganhar um #btotal de 50 pontos#k hoje." />
+    <string name="2" value="A Missão diária foi completada." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
   </imgdir>
   <imgdir name="10019">
-    <string name="name" value="Invade the Watermelon Field!" />
-    <string name="parent" value="Missão de hoje!     " />
+    <string name="name" value="Invada a plantação de melancias!" />
+    <string name="parent" value="Missão diária!     " />
     <int name="order" value="1" />
-    <string name="1" value="Missão de hoje!!\r\n&lt;Obtain #bChumji's Watermelon#k from the watermelon field!&gt;\n\nMissão de hoje is to obtain Chumji's watermelons.  There has been intelligence that #rMaster#k has planted a bomb in Chumji's watermelons.  Therefore, the watermelon field is currently being managed by the #bMaple Admin#k.  Get into the watermelon field through the Maple Admin and bring back the watermelons!" />
-    <string name="2" value="Missão de hoje has been completed." />
+    <string name="1" value="Missão diária!!\r\n&lt;Obtenha #bMelancias do Chumji#k da plantação de melancias!&gt;\n\nA Missão diária é obter melancias da plantação do Chumji. Há informações de que #rMaster#k colocou uma bomba nas melancias do Chumji. Entretanto o campo de melancias atualmente está sendo cuidado pelo #bMaple Admin#k.  Vá para o campo de melancias através do Maple Admin e traga as melancias!" />
+    <string name="2" value="A Missão diária foi completada." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
   </imgdir>
   <imgdir name="10020">
     <string name="name" value="Help Agent E!" />
-    <string name="parent" value="Missão de hoje!      " />
+    <string name="parent" value="Missão diária!      " />
     <int name="order" value="1" />
-    <string name="1" value="Missão de hoje!!\r\n&lt;Complete Agent E's #bSpecial Operation Quest#k!&gt; \n\nAgent E frequently assigns special operations to the agents to collect information on #bMaster M#k.  In order to receive a special operation from Agent E, go to Agent E who is in each town." />
-    <string name="2" value="Missão de hoje has been completed." />
+    <string name="1" value="Missão diária!!\r\n&lt;Complete a quest do Agent E #bQuest de Operação Especial#k!&gt; \n\nAgente E frequentemente dá missões especiais de coleta de informações sobre #bMaster M#k.  Para receber uma operação especial do Agente E, vá para o Agente E em cada cidade que passar." />
+    <string name="2" value="Missão diária foi completada." />
     <int name="area" value="50" />
     <int name="autoComplete" value="1" />
   </imgdir>
   <imgdir name="10021">
-    <string name="name" value="You are a True Special Agent!" />
-    <string name="0" value="#b#p9000021##k is said to have prepared a special gift for me for saving Maple World in the summer of 2009..." />
-    <string name="1" value="#b#p9000021##k is said to have prepared a special gift for me for saving Maple World in the summer of 2009..." />
-    <string name="2" value="2009 summer,... I was reborn as a true agent. " />
+    <string name="name" value="Você é um verdadeiro Agente Especial!" />
+    <string name="0" value="#b#p9000021##k disse ter preparado um presente especial pra mim salvar o mundo Maple no verão de 2009..." />
+    <string name="1" value="#b#p9000021##k disse ter preparado um presente especial pra mim salvar o mundo Maple no verão de 2009..." />
+    <string name="2" value="verão de 2009,... eu renasci como verdadeiro agente. " />
     <int name="area" value="50" />
     <int name="autoStart" value="1" />
   </imgdir>
   <imgdir name="10023">
-    <string name="name" value="Long and Dangerous Road of an Agent" />
-    <string name="0" value="I lost the Parachute Agent Shoes that Gaga gave to me recently during his suspicious offer.  I feel bad asking for another pair now, but should I still ask #bGaga#k? " />
-    <string name="1" value="Gaga seemed overly touched by the encouragement I gave in passing.  I think he is going to give me the Parachute Agent Shoes again.  I should talk to #bGaga#k again. " />
-    <string name="2" value="Gaga gave me the Parachute Agent Shoes again without any conditions.  I feel bad for doubting him all this time..." />
+    <string name="name" value="A estrada longa e perigosa de um agente" />
+    <string name="0" value="Eu perdi o Parachute Agent Shoes que Gaga me deu.  Agora eu me sinto mal em pedir um novo, devo mesmo assim pedir outro para #bGaga#k? " />
+    <string name="1" value="Gaga parece sensibilizado pelo incentivo que eu dei.  Eu acho que ele vai me dar o Parachute Agent Shoes novamente.  Eu devo falar com #bGaga#k de novo. " />
+    <string name="2" value="Gaga me deu o Parachute Agent Shoes novamente sem me pedir nada em troca. Eu me sinto mal por duvidar dele todo esse tempo..." />
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="1003">
-    <string name="name" value="What Sen wants to eat" />
-    <string name="parent" value="Nina and Sen's Dinner Menu" />
-    <string name="0" value="Let's talk to Nina." />
-    <string name="1" value="I ran into Nina who was thinking about what to make for Dinner for her brother, Sen. I have to go and talk to Sen who is next to Nina, and find out what he wants to have for dinner." />
-    <string name="2" value="I asked Sen, Nina's brother, what he wants to have for dinner. He answers he wants to have a #bMushroom Soup#k." />
+    <string name="name" value="O que Sen que comer" />
+    <string name="parent" value="Menu do jantar de Nina e Sen " />
+    <string name="0" value="Vamos falar com a Nina." />
+    <string name="1" value="Eu encontrei Nina e ela estava pensando no que fazer para o jantar com seu irmão, Sen. Preciso ir falar com o Sen e descobrir o que ele quer de jantar." />
+    <string name="2" value="Eu perguntei pro Sen, irmão da Nina, o que ele quer para o jantar. Ele me disse que quer #bsopa de cogumelo#k." />
     <int name="area" value="20" />
     <int name="order" value="1" />
   </imgdir>
@@ -204,10 +204,10 @@
     <int name="autoStart" value="1" />
   </imgdir>
   <imgdir name="10035">
-    <string name="name" value="The Great Maple Book Drive" />
-    <string name="0" value="#b#p9010014##k in #b#m100000200##k has lost her books she collected for the Great Maple Book Drive." />
-    <string name="1" value="#p9010014#, has asked me to help her find #b#t4000515##k . She says she'll show me #bfireworks#k if I help her." />
-    <string name="2" value="#p9010014#, has asked me to help her find #b#t4000515##k . She says she'll show me fireworks if I help her." />
+    <string name="name" value="O grande Maple Book Drive" />
+    <string name="0" value="#b#p9010014##k em #b#m100000200##k perdeu os livros que ela coletou para o Grande Maple Book Drive." />
+    <string name="1" value="#p9010014#, me pediu para ajuda-lá a achar #b#t4000515##k . Ela disse que iria me mostrar os #bfogos de artificio#k se eu ajudasse." />
+    <string name="2" value="#p9010014#, me pediu para ajuda-lá a achar #b#t4000515##k . Ela disse que iria me mostrar os #bfogos de artificio#k se eu ajudasse." />
     <int name="area" value="50" />
     <int name="autoStart" value="1" />
     <int name="autoPreComplete" value="1" />
@@ -227,20 +227,20 @@
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="10039">
-    <string name="name" value="Surprise Event : Special Alphabets" />
-    <string name="0" value="They say that Cassandra will be giving out a Special Alphabet Letter on Back To School day! The Cassandra is only giving it out on that one day, so I'd better to get it now!" />
-    <string name="1" value="Cassandra is apparently giving out 1 letter you ask for. They're only doing this for 1-day on Back To School day!" />
-    <string name="2" value="I received a Special Alphabet letter on Back To School day as part of MapleStory's Surprise Back To School event." />
+    <string name="name" value="Evento supresa: Special Alphabets" />
+    <string name="0" value="Dizem que Cassandra estará dando uma Special Alphabet Letter no dia de volta a escola! Cassandra só vai dar o item neste dia, então é melhor pegar isso agora!" />
+    <string name="1" value="Parece que a Cassandra está dando uma carta que você pedir. Ela estará fazendo isso apenas no dia Back To School day!" />
+    <string name="2" value="Eu recebi uma Special Alphabet letter no dia Back To School day como parte do evento MapleStory's Surprise Back To School." />
     <int name="area" value="50" />
     <int name="autoStart" value="1" />
     <int name="autoPreComplete" value="1" />
   </imgdir>
   <imgdir name="1004">
-    <string name="name" value="Returning to Nina" />
-    <string name="parent" value="Nina and Sen's Dinner Menu" />
+    <string name="name" value="Retornando para Nina" />
+    <string name="parent" value="Menu do jantar de Nina e Sen" />
     <int name="order" value="2" />
-    <string name="1" value="Sen wants to have Mushroom Soup for Dinner. Let's get back to Nina now." />
-    <string name="2" value="I told Nina what Sen wants for dinner." />
+    <string name="1" value="Sen quer sopa de cogumelo para o jantar. Vamos voltar para Nina agora." />
+    <string name="2" value="Eu contei a Nina o que o Sen quer de jantar." />
     <int name="area" value="20" />
   </imgdir>
   <imgdir name="10043">
@@ -266,11 +266,11 @@
     <int name="area" value="50" />
   </imgdir>
   <imgdir name="1005">
-    <string name="name" value="Letter for Lucas" />
-    <string name="parent" value="Please bring this letter to Lucas" />
-    <string name="0" value="I heard Maria need a help..." />
-    <string name="1" value="I met Maria who was desperately looking for help. She gave me a letter and asked me to bring this to Lucas in Amherst..." />
-    <string name="2" value="I gave Maria's letter to Lucas in Amherst." />
+    <string name="name" value="Carta para Lucas" />
+    <string name="parent" value="Por favor leve esta carta para o Lucas" />
+    <string name="0" value="Ouvi dizer que Maria precisa de ajuda..." />
+    <string name="1" value="Eu conheci Maria que estava desesperadamente procurando ajuda. Ela me deu uma carta e pediu para eu levar para Lucas em Amherst..." />
+    <string name="2" value="Eu entreguei a carta de Maria para o Lucas em Amherst." />
     <int name="area" value="20" />
     <int name="order" value="1" />
   </imgdir>
