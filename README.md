@@ -13,3 +13,4 @@ Se interessar contribuir com nosso projeto, contate-nos.
 - Updated SQL Reactor
 - removed SafeDispose(); add dispose(); only
 - Aran Estabilizado e com missões ativadas
+- Update 4th job
